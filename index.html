@@ -1,0 +1,68 @@
+<!-- Грунин 21ВП2 Лабораторная 3 Вариант 7-->
+
+<html>
+    <head>
+        <title>Labrotary #3</title>
+        <script src="scripts/scripts1.js">
+        alert("Файл, содержащий скрипт, не подключился!");
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <LINK REL="stylesheet" TYPE="text/css" HREF="css/styles.css">
+    </head>
+    <body>
+        <BODY  background = "pict/fon.jpg">
+        <div class = "all">
+        <p class = "basinf">
+        <e1>Лабораторная работа №3 JavaScript <br> Вариант №7 </e1></p> 
+        <p class = "cent2">
+        <e2>
+            Задание: Конвертер длин '' ↔ см (сконвертированные значения должны 
+            добавляться в таблицу на странице после выполнения конвертации).
+        </e2>
+        </p>
+        <p class = "basinf"> <e1>Конвертер  </e1></p>
+        <p class = "cent2">
+        <e2>
+        <select name="edin1" id = "ed1" class="select-css">
+            <option value="Километры" selected>Километры</option>
+            <option value="Метры" selected>Метры</option>
+            <option value="Дециметры">Дециметры</option>
+            <option value="Сантиметры">Сантиметры</option>
+            <option value="Миллиметры">Миллиметры</option>
+        </select>
+        <label class="custom-field"  >
+        <input id = "val1" value ="Значение">
+        </label>
+           ---->    
+        <label class="custom-field">
+            <input id = "val2"  value="Ответ">
+        </label>
+        <select  id = "ed2" class="select-css">
+            <option  value="Километры" selected>Километры</option>
+            <option value="Метры">     Метры     </option>
+            <option value="Дециметры"> Дециметры </option>
+            <option value="Сантиметры">Сантиметры</option>
+            <option value="Миллиметры">Миллиметры</option>
+        </select>
+        
+        </e>
+        </p>
+        <p class = "basinf">
+        <e2>
+        <input  class = "gradient-button" value="Конвертировать" 
+                onclick="solve()" type="button">
+        </e2>
+        </p>
+         <p class = "basinf"> <e1>История</e1></p>
+         <table id = "table">
+            <tr>
+                <th><e2 class="d">№</e2></th>
+                <th><e2 class="d">Значение</e2></th>
+                <th><e2 class="d">Результат</e2></th>
+            </tr>   
+         </table>
+
+       </div>       
+    </body>
+</html>
